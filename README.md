@@ -1,6 +1,6 @@
 # NLW eSports 
 
- ![preview](C:\Users\g-fel\OneDrive\Documents\gabrielp\nlw-esports-explorer-rocketseat\.github\preview.png)
+ ![preview](\.github\preview.png)
 
  > Trilha Explorer
 
