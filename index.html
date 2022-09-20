@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <title>Nlw Esports</title>
   </head>
   <body>
@@ -23,37 +30,39 @@
           <h2>Meus jogos</h2>
           <p>Games que mais curto jogar!</p>
 
-          <ul class="game-list">
-            <li>
-              <a
-                target="_blank"
-                href="https://www.twitch.tv/directory/game/FIFA%2022"
-                ><img
-                  src="https://static-cdn.jtvnw.net/ttv-boxart/1869092879_IGDB-285x380.jpg"
-                  alt="Imagem do jogo Fifa 22"
-              /></a>
-            </li>
+          <div class="swiper mySwiper">
+            <ul class="game-list swiper-wrapper">
+              <li class="swiper-slide">
+                <a
+                  target="_blank"
+                  href="https://www.twitch.tv/directory/game/FIFA%2022"
+                  ><img
+                    src="https://static-cdn.jtvnw.net/ttv-boxart/1869092879_IGDB-285x380.jpg"
+                    alt="Imagem do jogo Fifa 22"
+                /></a>
+              </li>
 
-            <li>
-              <a
-                target="_blank"
-                href="https://www.twitch.tv/directory/game/Call%20of%20Duty%3A%20Warzone"
-                ><img
-                  src="https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg"
-                  alt="Imagem do jogo Call Of Duty Warzone"
-              /></a>
-            </li>
+              <li class="swiper-slide">
+                <a
+                  target="_blank"
+                  href="https://www.twitch.tv/directory/game/Call%20of%20Duty%3A%20Warzone"
+                  ><img
+                    src="https://static-cdn.jtvnw.net/ttv-boxart/512710-285x380.jpg"
+                    alt="Imagem do jogo Call Of Duty Warzone"
+                /></a>
+              </li>
 
-            <li>
-              <a
-                target="_blank"
-                href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V"
-                ><img
-                  src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg"
-                  alt="Imagem do jogo Gta v"
-              /></a>
-            </li>
-          </ul>
+              <li class="swiper-slide">
+                <a
+                  target="_blank"
+                  href="https://www.twitch.tv/directory/game/Grand%20Theft%20Auto%20V"
+                  ><img
+                    src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-285x380.jpg"
+                    alt="Imagem do jogo Gta v"
+                /></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
@@ -125,9 +134,36 @@
                 </svg>
               </a>
             </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/gabriel-fellipe/">
+                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <rect width="32" height="32" fill="url(#pattern0)"/>
+                  <defs>
+                  <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0_414_1849" transform="scale(0.0078125)"/>
+                  </pattern>
+                  <image id="image0_414_1849" width="128" height="128" xlink:href="data:image/png;base64,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"/>
+                  </defs>
+                  </svg>
+                  
+              </a>  
+            </li>
+
           </ul>
         </div>
       </section>
     </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        loop: true,
+      });
+    </script>
   </body>
 </html>
