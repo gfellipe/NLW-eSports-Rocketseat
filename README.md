@@ -1,6 +1,7 @@
 # NLW eSports 
 
- ![preview](\.github\preview.png)
+ <p align="center">
+ <img alt="" src=".github/preview.png">
 
  > Trilha Explorer
 
